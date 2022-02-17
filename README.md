@@ -12,6 +12,7 @@ graph TD;
     程序B-->程序D;
     程序C-->程序D;
 ```  
+
 ```mermaid
 graph TD;
     程序A-->程序B;
@@ -19,6 +20,7 @@ graph TD;
     程序B-->程序D;
     程序C-->程序D;
 ```
+
 ## 時序圖 (Sequence Diagram)
 ```
 sequenceDiagram
@@ -29,10 +31,11 @@ sequenceDiagram
         小華->>小華: 輕聲唸到「怎麼辦」
     end
     Note right of 小華: 下定決心 <br/>就這麼回吧!
-    John-->>Alice: 早呀！你今天看起心情不錯噢！
-    John->>Bob: 小明，今天怎麼這麼早？
-    Bob-->>John: 你猜？
+    小華-->>小美: 早呀！你今天看起來心情不錯噢！
+    小華->>小明: 小明，今天怎麼這麼早？
+    小明-->>小華: 你猜？
 ```
+
 ```mermaid
 sequenceDiagram
     participant 小美
@@ -42,7 +45,34 @@ sequenceDiagram
         小華->>小華: 輕聲唸到「怎麼辦」
     end
     Note right of 小華: 下定決心 <br/>就這麼回吧!
-    John-->>Alice: 早呀！你今天看起心情不錯噢！
-    John->>Bob: 小明，今天怎麼這麼早？
-    Bob-->>John: 你猜？
+    小華-->>小美: 早呀！你今天看起來心情不錯噢！
+    小華->>小明: 小明，今天怎麼這麼早？
+    小明-->>小華: 你猜？
+```
+
+## 甘特圖 (Gantt Diagram)
+```
+gantt
+dateFormat  YYYY-MM-DD
+title 專題製作時程表
+excludes weekdays 2014-01-10
+
+section A分項
+已完成項目   :done,    des1, 2014-01-06,2014-01-08
+工作中項目   :active,  des2, 2014-01-09, 3d
+未完成項目一 :         des3, after des2, 5d
+未完成項目二 :         des4, after des3, 5d
+```
+
+```mermaid
+gantt
+dateFormat  YYYY-MM-DD
+title 專題製作時程表
+excludes weekdays 2014-01-10
+
+section A分項
+已完成項目   :done,    des1, 2014-01-06,2014-01-08
+工作中項目   :active,  des2, 2014-01-09, 3d
+未完成項目一 :         des3, after des2, 5d
+未完成項目二 :         des4, after des3, 5d
 ```
