@@ -76,3 +76,39 @@ section A分項
 未完成項目一 :         des3, after des2, 5d
 未完成項目二 :         des4, after des3, 5d
 ```
+
+## 分類圖 (Class Diagram)
+```
+classDiagram
+分類01 <|-- AveryLongClass : Cool
+分類03 *-- 分類04
+分類05 o-- 分類06
+分類07 .. 分類08
+分類09 --> C2 : Where am i?
+分類09 --* C3
+分類09 --|> 分類07
+分類07 : equals()
+分類07 : Object[] elementData
+分類01 : size()
+分類01 : int chimp
+分類01 : int gorilla
+分類08 <--> C2: Cool label
+```
+
+```mermaid
+classDiagram
+分類01 <|-- AveryLongClass : Cool
+分類03 *-- 分類04
+分類05 o-- 分類06
+分類07 .. 分類08
+分類09 --> C2 : Where am i?
+分類09 --* C3
+分類09 --|> 分類07
+分類07 : equals()
+分類07 : Object[] elementData
+分類01 : size()
+分類01 : int chimp
+分類01 : int gorilla
+分類08 <--> C2: Cool label
+```
+
