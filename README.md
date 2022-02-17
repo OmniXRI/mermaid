@@ -171,22 +171,21 @@ erDiagram
 journey
     title 我的工作行程
     section 上班
-      泡茶: 5: Me
-      準備: 3: Me
-      開會: 1: Me, Cat
+      泡茶: 5: 我
+      準備: 3: 我
+      開會: 1: 我, 同事
     section 回家
-      搭車: 5: Me
-      吃飯: 5: Me
+      搭車: 4: 我
+      吃飯: 5: 我
 ```
 
 ```mermaid
-journey
     title 我的工作行程
     section 上班
-      泡茶: 5: Me
-      準備: 3: Me
-      開會: 1: Me, Cat
+      泡茶: 5: 我
+      準備: 3: 我
+      開會: 1: 我, 同事
     section 回家
-      搭車: 5: Me
-      吃飯: 5: Me
+      搭車: 4: 我
+      吃飯: 5: 我
 ```
