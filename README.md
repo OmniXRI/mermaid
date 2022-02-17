@@ -167,12 +167,13 @@ erDiagram
 ```
 
 ## 使用者旅程圖 (User Journey Diagram)
+**使用者名稱只能用英文**
 ```
 journey
     title 我的工作行程
     section 上班
-      泡茶: 5: Me
-      準備: 3: Me
+      泡茶: 3: Me
+      準備: 2: Me
       開會: 1: Me, Jack
     section 回家
       搭車: 4: Me
@@ -183,8 +184,8 @@ journey
 journey
     title 我的工作行程
     section 上班
-      泡茶: 5: Me
-      準備: 3: Me
+      泡茶: 3: Me
+      準備: 2: Me
       開會: 1: Me, Jack
     section 回家
       搭車: 4: Me
