@@ -77,7 +77,7 @@ section A分項
 未完成項目二 :         des4, after des3, 5d
 ```
 
-## 分類圖 (Class Diagram)
+## 程式類別圖 (Class Diagram)
 ```
 classDiagram
 分類01 <|-- AveryLongClass : Cool
