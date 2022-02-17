@@ -166,3 +166,27 @@ erDiagram
     CUSTOMER }|..|{ DELIVERY-ADDRESS : uses
 ```
 
+## 使用者旅程圖 (User Journey Diagram)
+```
+journey
+    title 我的工作行程
+    section 上班
+      泡茶: 5: Me
+      準備: 3: Me
+      開會: 1: Me, Cat
+    section 回家
+      搭車: 5: Me
+      吃飯: 5: Me
+```
+
+```mermaid
+journey
+    title 我的工作行程
+    section 上班
+      泡茶: 5: Me
+      準備: 3: Me
+      開會: 1: Me, Cat
+    section 回家
+      搭車: 5: Me
+      吃飯: 5: Me
+```
